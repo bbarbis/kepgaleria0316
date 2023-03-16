@@ -1,0 +1,38 @@
+main{
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+img{
+    width: 100%;
+}
+
+main, section, div{
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+article div{
+    width: 33%;
+}
+.bal, .jobb {
+    align-self: stretch;
+    gap: 15px;
+    
+    
+}
+
+.nagykep{
+    align-self: stretch;
+    border: 1px solid black;
+    padding: 35px;
+}
